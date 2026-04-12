@@ -1,0 +1,328 @@
+{
+  "university": {
+    "name": "Harcourt Butler Technical University",
+    "short_name": "HBTU",
+    "location": "Kanpur, Uttar Pradesh",
+    "established": 2016,
+    "website": "https://hbtu.ac.in",
+    "naac_grade": "A+",
+    "vice_chancellor": "Prof. Samsher",
+    "about": "HBTU Kanpur is a 100+ year old institution, now a university since 2016. It offers programs in Engineering, Technology, Sciences, Humanities, and Management and holds NAAC Grade A+."
+  },
+
+  "departments": [
+    {
+      "id": "cse",
+      "name": "Computer Science & Engineering",
+      "short": "CSE",
+      "school": "School of Engineering",
+      "building": "IT Block / CSE Building",
+      "floor": "Ground Floor and First Floor",
+      "location_note": "Located in the IT Block near the main academic zone",
+      "programs": ["B.Tech CSE", "M.Tech CSE", "Ph.D CSE"],
+      "hod": {
+        "name": "Anita Yadav",
+        "cabin": "CSE Building, Ist floor"
+      },
+      "faculty": [
+        {
+          "name": "Prof. Vandana Dixit Kaushik",
+          "designation": "Professor",
+          "role": "Also Dean of Academic Affairs",
+          "cabin": "Dean Academic Affairs Office, Admin Block",
+          "programs" : "Ph.D in Computer Science"
+        }
+      ]
+    },
+    {
+      "id": "civil",
+      "name": "Civil Engineering",
+      "short": "Civil",
+      "school": "School of Engineering",
+      "building": "Civil Engineering Block",
+      "floor": "Ground Floor",
+      "location_note": "Near the Central Workshop",
+      "programs": ["B.Tech Civil", "M.Tech Civil", "Ph.D Civil"],
+      "hod": { "name": "Dr. Deepesh Singh", "cabin": "HOD Room, Civil Block" },
+      "faculty": [
+        {
+          "name" : "Dr. Dipteek Parmar",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Rajiv Ganguly",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Pradeep Kumar",
+          "role" : "Professor"
+        }
+      ]
+    },
+    {
+      "id": "ece",
+      "name": "Electronics Engineering",
+      "short": "ECE",
+      "school": "School of Engineering",
+      "building": "Electronics Block",
+      "floor": "First Floor",
+      "location_note": "Adjacent to Electrical Engineering Block",
+      "programs": ["B.Tech ECE", "M.Tech ECE", "Ph.D ECE"],
+      "hod": { "name": "Dr. Ashutosh Singh", "cabin": "HOD Room, Electronics Block" },
+      "faculty": [
+         {
+          "name" : "Dr. A.K. Shankhwar",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Krishna Raj",
+          "role" : "Professor"
+        }
+      ]
+    },
+    {
+      "id": "ee",
+      "name": "Electrical Engineering",
+      "short": "EE",
+      "school": "School of Engineering",
+      "building": "Electrical Engineering Block",
+      "floor": "Ground Floor",
+      "location_note": "Near the Central Workshop area",
+      "programs": ["B.Tech EE", "M.Tech EE", "Ph.D EE"],
+      "hod": { "name": "Prof. Archana Singh (In-charge)", "cabin": "HOD Room, EE Block" },
+      "faculty": [
+         {
+          "name" : "Dr. Yaduvir Singh",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Sanjiv Kumar",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. C. N singh",
+          "role" : "Professor"
+        }
+      ]
+    },
+    {
+      "id": "me",
+      "name": "Mechanical Engineering",
+      "short": "ME",
+      "school": "School of Engineering",
+      "building": "Mechanical Engineering Block",
+      "floor": "Ground Floor and First Floor",
+      "location_note": "Near the Central Workshop",
+      "programs": ["B.Tech ME", "M.Tech ME", "Ph.D ME"],
+      "hod": { "name": "Prof. Vinay Pratap Singh", "cabin": "HOD Room, ME Block" },
+      "faculty": [
+         {
+          "name" : "Dr. Rajesh Kumar Verma",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Anand Kumar",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Nishant K. Singh",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Prabhat Verma",
+          "role" : "Professor"
+        }
+      ]
+    },
+    {
+      "id": "chem",
+      "name": "Chemical Engineering",
+      "short": "ChemE",
+      "school": "School of Chemical Technology",
+      "building": "Chemical Technology Block",
+      "floor": "Ground Floor",
+      "location_note": "School of Chemical Technology zone",
+      "programs": ["B.Tech Chemical", "M.Tech Chemical", "Ph.D Chemical"],
+      "hod": { "name": "Prof. G L Devnani (In-charge)", "cabin": "HOD Room, Chemical Block" },
+      "faculty": [
+         {
+          "name" : "Dr. Ashish Kapoor",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Rajesh Katiyar",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Ashwini Sood",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. A.K.Rathore",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. S.V.A.R. Sastry",
+          "role" : "Professor"
+        }
+         {
+          "name" : "Dr. Adharsh Kumar Arya",
+          "role" : "Professor"
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "name": "Biotechnology",
+      "short": "BT",
+      "school": "School of Pharmaceutical & Biological Sciences",
+      "building": "Pharmaceutical & Biological Sciences Block",
+      "floor": "First Floor",
+      "location_note": "Near Pharmaceutical Sciences Department",
+      "programs": ["B.Tech Biotech", "M.Tech Biotech", "Ph.D Biotech"],
+      "hod": { "name": "Prof. Dr. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Biotech Block" },
+      "faculty": []
+    },
+    {
+      "id": "pharma",
+      "name": "Pharmaceutical Sciences",
+      "short": "Pharma",
+      "school": "School of Pharmaceutical & Biological Sciences",
+      "building": "Pharmaceutical & Biological Sciences Block",
+      "floor": "Ground Floor",
+      "location_note": "Near Biotechnology Department",
+      "programs": ["B.Pharma", "M.Pharma", "Ph.D Pharma"],
+      "hod": { "name": "Prof. Dr. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Pharma Block" },
+      "faculty": []
+    },
+    {
+      "id": "mba",
+      "name": "Management Studies",
+      "short": "MBA/MCA",
+      "school": "School of Entrepreneurship & Management",
+      "building": "Management Block",
+      "floor": "Ground Floor",
+      "location_note": "Near the Administrative Block",
+      "programs": ["MBA", "MCA"],
+      "hod": { "name": "Prof. Vinay Pratap Singh", "cabin": "HOD Room, Management Block" },
+      "faculty": []
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "short": "Math",
+      "school": "School of Basic & Applied Sciences",
+      "building": "Science Block",
+      "floor": "First Floor",
+      "location_note": "Science Block, next to Physics Department",
+      "programs": ["M.Sc Mathematics", "Ph.D Mathematics"],
+      "hod": { "name": "Dr. Ram Naresh Tripathi (Dean SoEM)", "cabin": "HOD Room, Science Block" },
+      "faculty": []
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "short": "PHY",
+      "school": "School of Basic & Applied Sciences",
+      "building": "Science Block",
+      "floor": "Ground Floor",
+      "location_note": "Ground floor of the Science Block",
+      "programs": ["M.Sc Physics", "Ph.D Physics"],
+      "hod": { "name": "Dr. Manoj Kumar (In-charge)", "cabin": "HOD Room, Science Block" },
+      "faculty": []
+    }
+  ],
+
+  "facilities": [
+    {
+      "name": "Tagore Central Library",
+      "type": "library",
+      "location": "Central Campus, near main building",
+      "floor": "Ground Floor",
+      "timings": "9 AM – 9 PM (weekdays), 9 AM – 5 PM (weekends)",
+      "services": ["Books", "e-Journals", "e-Books", "Web of Science", "NDLI Club", "Web OPAC"]
+    },
+    {
+      "name": "Computer Centre",
+      "type": "computing",
+      "location": "Academic Zone, Ground Floor"
+    },
+    {
+      "name": "Central Workshop",
+      "type": "workshop",
+      "location": "Near Mechanical and Civil Engineering Blocks, Ground Floor"
+    },
+    {
+      "name": "Health Centre",
+      "type": "medical",
+      "location": "Campus, near hostel area",
+      "timings": "University hours (Emergency: 24x7)"
+    },
+    {
+      "name": "Hostels",
+      "type": "accommodation",
+      "location": "Hostel Zone, campus. Separate for boys and girls.",
+      "note": "Contact Dean of Student Welfare for allotment"
+    },
+    {
+      "name": "Canteen",
+      "type": "food",
+      "location": "Central Campus, Ground Floor (near Auditorium)"
+    },
+    {
+      "name": "Gymnasium / Sports Facility",
+      "type": "sports",
+      "location": "Sports Zone, campus"
+    },
+    {
+      "name": "Bank",
+      "type": "finance",
+      "location": "Near Administrative Block, campus"
+    },
+    {
+      "name": "Post Office",
+      "type": "postal",
+      "location": "Campus"
+    },
+    {
+      "name": "Incubation Centre (TBI)",
+      "type": "startup",
+      "location": "HBTU TBI Foundation Building, campus"
+    },
+    {
+      "name": "Training & Placement Cell",
+      "type": "placement",
+      "location": "Administrative Zone"
+    },
+    {
+      "name": "Guest House",
+      "type": "accommodation",
+      "location": "University Campus"
+    }
+  ],
+
+  "key_offices": [
+    { "name": "Vice Chancellor Office", "person": "Prof. Samsher", "location": "Administrative Block, First Floor" },
+    { "name": "Dean of Academic Affairs", "person": "Prof. Vandana Dixit Kaushik", "location": "Administrative Block" },
+    { "name": "Dean of Student Welfare", "person": "Prof. C L Gehlot", "location": "Administrative Block" },
+    { "name": "Dean of Research & Development", "person": "Prof. Rajesh Kumar Verma", "location": "Administrative Block" },
+    { "name": "Dean of Incubation Hub", "person": "Prof. Jitendra Bhaskar", "location": "Incubation Hub / TBI Building" },
+    { "name": "Dean of Planning & Resource Generation", "person": "Prof. Vivek Kumar", "location": "Administrative Block" },
+    { "name": "Dean of International Student Affairs", "person": "Dr. Sanjiv Kumar", "location": "Administrative Block" },
+    { "name": "Controller of Examinations", "person": "Prof. Anita Yadav", "location": "Examination Block" },
+    {"name": "Additional CoE(Results)", "person": "Prif. Prabhat Verma", "location": "CSE Department"}
+  ],
+
+  "admissions": {
+    "btech": "Through JEE Main / UP State Counseling (UPSEE/AKTU) — hbtu.ac.in/bachelors-admissions",
+    "mtech_mba_mca": "Through GATE / CMAT / MAT / University Entrance — hbtu.ac.in/masters-programmes",
+    "phd": "Through University Entrance Test — hbtu.ac.in/ph-d-programmes",
+    "portal": "erp.hbtu.ac.in/HBTUAdmissions.html"
+  },
+
+  "erp": {
+    "student_login": "hbtu.samarth.edu.in or erp.hbtu.ac.in/slogin.aspx",
+    "faculty_login": "hbtu.samarth.ac.in or erp.hbtu.ac.in/elogin.aspx",
+    "alumni": "hbtu.samarth.edu.in/alumni"
+  }
+}
