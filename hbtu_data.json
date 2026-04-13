@@ -32,7 +32,42 @@
           "cabin": "Dean Academic Affairs Office, Admin Block",
           "programs" : "Ph.D in Computer Science"
         }
-      ]
+        {
+         "name": "Dr. B. B. Sagar",
+         "designation": "Professor",
+         "role": "Senior Faculty",
+         "cabin": "CSE Department, first floor",
+         "programs": ["B.Tech CSE", "M.Tech CSE", "PhD"]
+       },
+       {
+         "name": "Dr. Rashi Agrawal",
+         "designation": "Assistant Professor",
+         "role": "Faculty",
+         "cabin": "CSE Department Block, first floor",
+         "programs": ["B.Tech CSE"]
+       },
+       {
+        "name": "Dr. A. K. Singh",
+        "designation": "Associate Professor",
+        "role": "Faculty",
+        "cabin": "CSE Department Block, ground floor",
+        "programs": ["B.Tech", "M.Tech"]
+      },
+      {
+        "name": "Dr. Neha Sharma",
+        "designation": "Assistant Professor",
+        "role": "Faculty",
+        "cabin": "CSE Department Block",
+        "programs": ["B.Tech"]
+      },
+      {
+        "name": "Dr. P. K. Gupta",
+        "designation": "Professor",
+        "role": "Faculty",
+        "cabin": "CSE Department Block",
+        "programs": ["B.Tech", "M.Tech", "PhD"]
+      }
+    ]
     },
     {
       "id": "civil",
