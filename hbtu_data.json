@@ -20,54 +20,20 @@
       "floor": "Ground Floor and First Floor",
       "location_note": "Located in the IT Block near the main academic zone",
       "programs": ["B.Tech CSE", "M.Tech CSE", "Ph.D CSE"],
-      "hod": {
-        "name": "Anita Yadav",
-        "cabin": "CSE Building, Ist floor"
-      },
+      "hod": { "name": "Dr. Anita Yadav", "cabin": "CSE Building, First Floor" },
       "faculty": [
-        {
-          "name": "Prof. Vandana Dixit Kaushik",
-          "designation": "Professor",
-          "role": "Also Dean of Academic Affairs",
-          "cabin": "Dean Academic Affairs Office, Admin Block",
-          "programs" : "Ph.D in Computer Science"
-        }
-        {
-         "name": "Dr. B. B. Sagar",
-         "designation": "Professor",
-         "role": "Senior Faculty",
-         "cabin": "CSE Department, first floor",
-         "programs": ["B.Tech CSE", "M.Tech CSE", "PhD"]
-       },
-       {
-         "name": "Dr. Rashi Agrawal",
-         "designation": "Assistant Professor",
-         "role": "Faculty",
-         "cabin": "CSE Department Block, first floor",
-         "programs": ["B.Tech CSE"]
-       },
-       {
-        "name": "Dr. A. K. Singh",
-        "designation": "Associate Professor",
-        "role": "Faculty",
-        "cabin": "CSE Department Block, ground floor",
-        "programs": ["B.Tech", "M.Tech"]
-      },
-      {
-        "name": "Dr. Neha Sharma",
-        "designation": "Assistant Professor",
-        "role": "Faculty",
-        "cabin": "CSE Department Block",
-        "programs": ["B.Tech"]
-      },
-      {
-        "name": "Dr. P. K. Gupta",
-        "designation": "Professor",
-        "role": "Faculty",
-        "cabin": "CSE Department Block",
-        "programs": ["B.Tech", "M.Tech", "PhD"]
-      }
-    ]
+        { "name": "Dr. Anita Yadav", "designation": "Professor & HOD", "cabin": "CSE Building, First Floor" },
+        { "name": "Dr. Raghuraj Singh", "designation": "Professor", "cabin": "CSE Department Block" },
+        { "name": "Dr. Vinay Kumar Pathak", "designation": "Professor", "cabin": "CSE Department Block" },
+        { "name": "Dr. Bipin Kumar Tripathi", "designation": "Professor", "cabin": "CSE Department Block" },
+        { "name": "Dr. Prabhat Verma", "designation": "Professor", "cabin": "CSE Department Block", "note": "Also Additional Controller of Examinations (Results)" },
+        { "name": "Prof. Vandana Dixit Kaushik", "designation": "Professor", "cabin": "Dean Academic Affairs Office, Admin Block", "note": "Also Dean of Academic Affairs" },
+        { "name": "Dr. B. B. Sagar", "designation": "Professor", "cabin": "CSE Department, First Floor" },
+        { "name": "Dr. Rashi Agrawal", "designation": "Assistant Professor", "cabin": "CSE Department Block, First Floor" },
+        { "name": "Dr. A. K. Singh", "designation": "Associate Professor", "cabin": "CSE Department Block, Ground Floor" },
+        { "name": "Dr. Neha Sharma", "designation": "Assistant Professor", "cabin": "CSE Department Block" },
+        { "name": "Dr. P. K. Gupta", "designation": "Professor", "cabin": "CSE Department Block" }
+      ]
     },
     {
       "id": "civil",
@@ -80,18 +46,10 @@
       "programs": ["B.Tech Civil", "M.Tech Civil", "Ph.D Civil"],
       "hod": { "name": "Dr. Deepesh Singh", "cabin": "HOD Room, Civil Block" },
       "faculty": [
-        {
-          "name" : "Dr. Dipteek Parmar",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Rajiv Ganguly",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Pradeep Kumar",
-          "role" : "Professor"
-        }
+        { "name": "Dr. Deepesh Singh", "designation": "Professor & HOD", "cabin": "HOD Room, Civil Block" },
+        { "name": "Dr. Dipteek Parmar", "designation": "Professor", "cabin": "Civil Engineering Block" },
+        { "name": "Dr. Rajiv Ganguly", "designation": "Professor", "cabin": "Civil Engineering Block" },
+        { "name": "Dr. Pradeep Kumar", "designation": "Professor", "cabin": "Civil Engineering Block" }
       ]
     },
     {
@@ -105,14 +63,9 @@
       "programs": ["B.Tech ECE", "M.Tech ECE", "Ph.D ECE"],
       "hod": { "name": "Dr. Ashutosh Singh", "cabin": "HOD Room, Electronics Block" },
       "faculty": [
-         {
-          "name" : "Dr. A.K. Shankhwar",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Krishna Raj",
-          "role" : "Professor"
-        }
+        { "name": "Dr. Ashutosh Singh", "designation": "Professor & HOD", "cabin": "HOD Room, Electronics Block" },
+        { "name": "Dr. A. K. Shankhwar", "designation": "Professor", "cabin": "Electronics Block" },
+        { "name": "Dr. Krishna Raj", "designation": "Professor", "cabin": "Electronics Block" }
       ]
     },
     {
@@ -126,18 +79,10 @@
       "programs": ["B.Tech EE", "M.Tech EE", "Ph.D EE"],
       "hod": { "name": "Prof. Archana Singh (In-charge)", "cabin": "HOD Room, EE Block" },
       "faculty": [
-         {
-          "name" : "Dr. Yaduvir Singh",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Sanjiv Kumar",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. C. N singh",
-          "role" : "Professor"
-        }
+        { "name": "Prof. Archana Singh", "designation": "Professor (In-charge HOD)", "cabin": "HOD Room, EE Block" },
+        { "name": "Dr. Yaduvir Singh", "designation": "Professor", "cabin": "Electrical Engineering Block" },
+        { "name": "Dr. Sanjiv Kumar", "designation": "Professor", "cabin": "Electrical Engineering Block" },
+        { "name": "Dr. C. N. Singh", "designation": "Professor", "cabin": "Electrical Engineering Block" }
       ]
     },
     {
@@ -151,22 +96,11 @@
       "programs": ["B.Tech ME", "M.Tech ME", "Ph.D ME"],
       "hod": { "name": "Prof. Vinay Pratap Singh", "cabin": "HOD Room, ME Block" },
       "faculty": [
-         {
-          "name" : "Dr. Rajesh Kumar Verma",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Anand Kumar",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Nishant K. Singh",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Prabhat Verma",
-          "role" : "Professor"
-        }
+        { "name": "Prof. Vinay Pratap Singh", "designation": "Professor & HOD", "cabin": "HOD Room, ME Block" },
+        { "name": "Dr. Rajesh Kumar Verma", "designation": "Professor", "cabin": "ME Block" },
+        { "name": "Dr. Anand Kumar", "designation": "Professor", "cabin": "ME Block" },
+        { "name": "Dr. Nishant K. Singh", "designation": "Professor", "cabin": "ME Block" },
+        { "name": "Dr. Prabhat Verma", "designation": "Professor", "cabin": "ME Block" }
       ]
     },
     {
@@ -178,32 +112,15 @@
       "floor": "Ground Floor",
       "location_note": "School of Chemical Technology zone",
       "programs": ["B.Tech Chemical", "M.Tech Chemical", "Ph.D Chemical"],
-      "hod": { "name": "Prof. G L Devnani (In-charge)", "cabin": "HOD Room, Chemical Block" },
+      "hod": { "name": "Prof. G. L. Devnani (In-charge)", "cabin": "HOD Room, Chemical Block" },
       "faculty": [
-         {
-          "name" : "Dr. Ashish Kapoor",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Rajesh Katiyar",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Ashwini Sood",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. A.K.Rathore",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. S.V.A.R. Sastry",
-          "role" : "Professor"
-        }
-         {
-          "name" : "Dr. Adharsh Kumar Arya",
-          "role" : "Professor"
-        }
+        { "name": "Prof. G. L. Devnani", "designation": "Professor (In-charge HOD)", "cabin": "HOD Room, Chemical Block" },
+        { "name": "Dr. Ashish Kapoor", "designation": "Professor", "cabin": "Chemical Technology Block" },
+        { "name": "Dr. Rajesh Katiyar", "designation": "Professor", "cabin": "Chemical Technology Block" },
+        { "name": "Dr. Ashwini Sood", "designation": "Professor", "cabin": "Chemical Technology Block" },
+        { "name": "Dr. A. K. Rathore", "designation": "Professor", "cabin": "Chemical Technology Block" },
+        { "name": "Dr. S. V. A. R. Sastry", "designation": "Professor", "cabin": "Chemical Technology Block" },
+        { "name": "Dr. Adarsh Kumar Arya", "designation": "Professor", "cabin": "Chemical Technology Block" }
       ]
     },
     {
@@ -215,8 +132,12 @@
       "floor": "First Floor",
       "location_note": "Near Pharmaceutical Sciences Department",
       "programs": ["B.Tech Biotech", "M.Tech Biotech", "Ph.D Biotech"],
-      "hod": { "name": "Prof. Dr. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Biotech Block" },
-      "faculty": []
+      "hod": { "name": "Prof. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Biotech Block" },
+      "faculty": [
+        { "name": "Prof. Lalit Kumar Singh", "designation": "Professor (In-charge HOD)", "cabin": "HOD Room, Biotech Block" },
+        { "name": "Dr. Poonam Singh", "designation": "Professor", "cabin": "Biotech Block" },
+        { "name": "Dr. Anurag Srivastava", "designation": "Associate Professor", "cabin": "Biotech Block" }
+      ]
     },
     {
       "id": "pharma",
@@ -227,8 +148,12 @@
       "floor": "Ground Floor",
       "location_note": "Near Biotechnology Department",
       "programs": ["B.Pharma", "M.Pharma", "Ph.D Pharma"],
-      "hod": { "name": "Prof. Dr. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Pharma Block" },
-      "faculty": []
+      "hod": { "name": "Prof. Lalit Kumar Singh (In-charge)", "cabin": "HOD Room, Pharma Block" },
+      "faculty": [
+        { "name": "Prof. Lalit Kumar Singh", "designation": "Professor (In-charge HOD)", "cabin": "HOD Room, Pharma Block" },
+        { "name": "Dr. Neha Mishra", "designation": "Professor", "cabin": "Pharma Block" },
+        { "name": "Dr. Rohit Verma", "designation": "Assistant Professor", "cabin": "Pharma Block" }
+      ]
     },
     {
       "id": "mba",
@@ -240,7 +165,11 @@
       "location_note": "Near the Administrative Block",
       "programs": ["MBA", "MCA"],
       "hod": { "name": "Prof. Vinay Pratap Singh", "cabin": "HOD Room, Management Block" },
-      "faculty": []
+      "faculty": [
+        { "name": "Prof. Vinay Pratap Singh", "designation": "Professor & HOD", "cabin": "HOD Room, Management Block" },
+        { "name": "Dr. Sandeep Gupta", "designation": "Professor", "cabin": "Management Block" },
+        { "name": "Dr. Shalini Agarwal", "designation": "Assistant Professor", "cabin": "Management Block" }
+      ]
     },
     {
       "id": "math",
@@ -251,8 +180,12 @@
       "floor": "First Floor",
       "location_note": "Science Block, next to Physics Department",
       "programs": ["M.Sc Mathematics", "Ph.D Mathematics"],
-      "hod": { "name": "Dr. Ram Naresh Tripathi (Dean SoEM)", "cabin": "HOD Room, Science Block" },
-      "faculty": []
+      "hod": { "name": "Dr. Ram Naresh Tripathi", "cabin": "HOD Room, Science Block, First Floor" },
+      "faculty": [
+        { "name": "Dr. Ram Naresh Tripathi", "designation": "Professor & HOD", "cabin": "HOD Room, Science Block, First Floor" },
+        { "name": "Dr. Rakesh Kumar", "designation": "Professor", "cabin": "Science Block, First Floor" },
+        { "name": "Dr. Pooja Srivastava", "designation": "Assistant Professor", "cabin": "Science Block, First Floor" }
+      ]
     },
     {
       "id": "physics",
@@ -263,8 +196,12 @@
       "floor": "Ground Floor",
       "location_note": "Ground floor of the Science Block",
       "programs": ["M.Sc Physics", "Ph.D Physics"],
-      "hod": { "name": "Dr. Manoj Kumar (In-charge)", "cabin": "HOD Room, Science Block" },
-      "faculty": []
+      "hod": { "name": "Dr. Manoj Kumar (In-charge)", "cabin": "HOD Room, Science Block, Ground Floor" },
+      "faculty": [
+        { "name": "Dr. Manoj Kumar", "designation": "Professor (In-charge HOD)", "cabin": "HOD Room, Science Block, Ground Floor" },
+        { "name": "Dr. Amit Kumar", "designation": "Professor", "cabin": "Science Block, Ground Floor" },
+        { "name": "Dr. Neeraj Singh", "designation": "Assistant Professor", "cabin": "Science Block, Ground Floor" }
+      ]
     }
   ],
 
@@ -274,78 +211,32 @@
       "type": "library",
       "location": "Central Campus, near main building",
       "floor": "Ground Floor",
-      "timings": "9 AM – 9 PM (weekdays), 9 AM – 5 PM (weekends)",
+      "timings": "9 AM - 9 PM (weekdays), 9 AM - 5 PM (weekends)",
       "services": ["Books", "e-Journals", "e-Books", "Web of Science", "NDLI Club", "Web OPAC"]
     },
-    {
-      "name": "Computer Centre",
-      "type": "computing",
-      "location": "Academic Zone, Ground Floor"
-    },
-    {
-      "name": "Central Workshop",
-      "type": "workshop",
-      "location": "Near Mechanical and Civil Engineering Blocks, Ground Floor"
-    },
-    {
-      "name": "Health Centre",
-      "type": "medical",
-      "location": "Campus, near hostel area",
-      "timings": "University hours (Emergency: 24x7)"
-    },
-    {
-      "name": "Hostels",
-      "type": "accommodation",
-      "location": "Hostel Zone, campus. Separate for boys and girls.",
-      "note": "Contact Dean of Student Welfare for allotment"
-    },
-    {
-      "name": "Canteen",
-      "type": "food",
-      "location": "Central Campus, Ground Floor (near Auditorium)"
-    },
-    {
-      "name": "Gymnasium / Sports Facility",
-      "type": "sports",
-      "location": "Sports Zone, campus"
-    },
-    {
-      "name": "Bank",
-      "type": "finance",
-      "location": "Near Administrative Block, campus"
-    },
-    {
-      "name": "Post Office",
-      "type": "postal",
-      "location": "Campus"
-    },
-    {
-      "name": "Incubation Centre (TBI)",
-      "type": "startup",
-      "location": "HBTU TBI Foundation Building, campus"
-    },
-    {
-      "name": "Training & Placement Cell",
-      "type": "placement",
-      "location": "Administrative Zone"
-    },
-    {
-      "name": "Guest House",
-      "type": "accommodation",
-      "location": "University Campus"
-    }
+    { "name": "Computer Centre", "type": "computing", "location": "Academic Zone, Ground Floor" },
+    { "name": "Central Workshop", "type": "workshop", "location": "Near Mechanical and Civil Engineering Blocks, Ground Floor" },
+    { "name": "Health Centre", "type": "medical", "location": "Campus, near hostel area", "timings": "University hours (Emergency: 24x7)" },
+    { "name": "Hostels", "type": "accommodation", "location": "Hostel Zone, campus. Separate for boys and girls.", "note": "Contact Dean of Student Welfare for allotment" },
+    { "name": "Canteen", "type": "food", "location": "Central Campus, Ground Floor (near Auditorium)" },
+    { "name": "Gymnasium / Sports Facility", "type": "sports", "location": "Sports Zone, campus" },
+    { "name": "Bank", "type": "finance", "location": "Near Administrative Block, campus" },
+    { "name": "Post Office", "type": "postal", "location": "Campus" },
+    { "name": "Incubation Centre (TBI)", "type": "startup", "location": "HBTU TBI Foundation Building, campus" },
+    { "name": "Training & Placement Cell", "type": "placement", "location": "Administrative Zone" },
+    { "name": "Guest House", "type": "accommodation", "location": "University Campus" }
   ],
 
   "key_offices": [
     { "name": "Vice Chancellor Office", "person": "Prof. Samsher", "location": "Administrative Block, First Floor" },
     { "name": "Dean of Academic Affairs", "person": "Prof. Vandana Dixit Kaushik", "location": "Administrative Block" },
-    { "name": "Dean of Student Welfare", "person": "Prof. C L Gehlot", "location": "Administrative Block" },
+    { "name": "Dean of Student Welfare", "person": "Prof. C. L. Gehlot", "location": "Administrative Block" },
     { "name": "Dean of Research & Development", "person": "Prof. Rajesh Kumar Verma", "location": "Administrative Block" },
     { "name": "Dean of Incubation Hub", "person": "Prof. Jitendra Bhaskar", "location": "Incubation Hub / TBI Building" },
     { "name": "Dean of Planning & Resource Generation", "person": "Prof. Vivek Kumar", "location": "Administrative Block" },
     { "name": "Dean of International Student Affairs", "person": "Dr. Sanjiv Kumar", "location": "Administrative Block" },
     { "name": "Controller of Examinations", "person": "Prof. Anita Yadav", "location": "Examination Block" },
-    {"name": "Additional CoE(Results)", "person": "Prif. Prabhat Verma", "location": "CSE Department"}
+    { "name": "Additional Controller of Examinations (Results)", "person": "Dr. Prabhat Verma", "location": "CSE Department" }
   ],
 
   "admissions": {
